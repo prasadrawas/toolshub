@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://usfinancetools.com/financetools
+
+# Sitemaps
+Sitemap: https://usfinancetools.com/financetools/sitemap.xml
