@@ -1,0 +1,22 @@
+{
+  "name": "tools-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "dev:financetools": "turbo run dev --filter=usfinancetools",
+    "build:financetools": "turbo run build --filter=usfinancetools",
+    "dev:gateway": "turbo run dev --filter=gateway",
+    "dev:devtools": "turbo run dev --filter=devtools",
+    "build:devtools": "turbo run build --filter=devtools"
+  },
+  "packageManager": "npm@11.6.2",
+  "devDependencies": {
+    "turbo": "^2"
+  }
+}
